@@ -1,0 +1,93 @@
+﻿<Window x:Class="StudentAppWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Учёт студентов" Height="600" Width="950"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <Grid Grid.Row="0" Margin="0,0,0,10">
+            <TextBlock Text="Учёт студентов" FontSize="24" FontWeight="Bold" 
+                       HorizontalAlignment="Center"/>
+            <Button x:Name="AdminButton" Content="Управление админами" 
+                    Width="180" HorizontalAlignment="Right" Click="AdminButton_Click"/>
+        </Grid>
+
+        <!-- Панель поиска и фильтрации -->
+        <Border Grid.Row="1" BorderBrush="#ccc" BorderThickness="1" Padding="10" Margin="0,0,0,10" CornerRadius="8">
+            <StackPanel>
+                <TextBlock Text="Поиск и фильтрация" FontWeight="Bold" Margin="0,0,0,5"/>
+                <WrapPanel>
+                    <TextBox x:Name="SearchBox" Width="200" Margin="0,0,10,5" ToolTip="Поиск по ФИО"/>
+                    <ComboBox x:Name="CourseFilterBox" Width="120" Margin="0,0,10,5" SelectedIndex="0">
+                        <ComboBoxItem Content="Все курсы" IsSelected="True"/>
+                        <ComboBoxItem Content="1 курс"/>
+                        <ComboBoxItem Content="2 курс"/>
+                        <ComboBoxItem Content="3 курс"/>
+                        <ComboBoxItem Content="4 курс"/>
+                    </ComboBox>
+                    <Button x:Name="SearchButton" Content="Применить" Width="100" Margin="0,0,10,5" Click="SearchButton_Click"/>
+                    <Button x:Name="ResetButton" Content="Сброс" Width="80" Click="ResetButton_Click"/>
+                </WrapPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- Форма добавления/редактирования -->
+        <Border Grid.Row="2" BorderBrush="#ccc" BorderThickness="1" Padding="10" Margin="0,0,0,10" CornerRadius="8">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock x:Name="FormTitle" Text="Добавить студента" FontWeight="Bold" Margin="0,0,0,5"/>
+                    <TextBlock Text="  (ФИО и группа — обязательны)" FontSize="11" Foreground="Gray" Margin="5,0,0,5" VerticalAlignment="Bottom"/>
+                </StackPanel>
+                <WrapPanel>
+                    <TextBox x:Name="FullNameBox" Width="200" Margin="0,0,10,5" ToolTip="Обязательно. Сначала фамилию, потом имя и отчество. Пример: Иванов Иван Иванович" />
+                    <TextBox x:Name="GroupNameBox" Width="100" Margin="0,0,10,5" ToolTip="Обязательно. Название группы. Пример: ПИ-101" />
+                    <TextBox x:Name="CardNumberBox" Width="120" Margin="0,0,10,5" ToolTip="Необязательно. Номер студенческого билета. Пример: СТ-2024-001" />
+                    <TextBox x:Name="PhoneBox" Width="120" Margin="0,0,10,5" ToolTip="Необязательно. Номер телефона. Пример: +7 (999) 123-45-67" />
+                    <TextBox x:Name="EmailBox" Width="150" Margin="0,0,10,5" ToolTip="Необязательно. Адрес электронной почты. Пример: ivanov@mail.ru" />
+                    <Button x:Name="SaveButton" Content="Сохранить" Width="100" Margin="0,0,10,5" Click="SaveButton_Click"/>
+                    <Button x:Name="CancelButton" Content="Отмена" Width="80" Click="CancelButton_Click" IsEnabled="False"/>
+                </WrapPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- Таблица студентов -->
+        <DataGrid x:Name="StudentsGrid" Grid.Row="3" AutoGenerateColumns="False" IsReadOnly="True" 
+                  SelectionMode="Single" SelectionChanged="StudentsGrid_SelectionChanged"
+                  Margin="0,0,0,10" AlternatingRowBackground="#f9f9f9">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding StudentId}" Width="50"/>
+                <DataGridTextColumn Header="ФИО" Binding="{Binding FullName}" Width="200"/>
+                <DataGridTextColumn Header="Группа" Binding="{Binding GroupName}" Width="80"/>
+                <DataGridTextColumn Header="Курс" Binding="{Binding Course}" Width="50"/>
+                <DataGridTextColumn Header="Специальность" Binding="{Binding SpecialtyName}" Width="150"/>
+                <DataGridTextColumn Header="Факультет" Binding="{Binding FacultyName}" Width="150"/>
+                <DataGridTextColumn Header="Студ. билет" Binding="{Binding StudentCardNumber}" Width="100"/>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding Phone}" Width="100"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="150"/>
+                <DataGridTemplateColumn Header="Действия" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="✏️" Width="30" Margin="2" Click="EditButton_Click"/>
+                                <Button Content="🗑️" Width="30" Margin="2" Click="DeleteButton_Click"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Статус-бар -->
+        <StatusBar Grid.Row="4">
+            <StatusBarItem x:Name="StatusLabel">Готово</StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

@@ -1,0 +1,56 @@
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\bin\Debug\Учет Студентов.exe.config
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\bin\Debug\Учет Студентов.exe
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\bin\Debug\Учет Студентов.pdb
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\LoginWindow.baml
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\AdminWindow.baml
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\LoginWindow.g.cs
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\AdminWindow.g.cs
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов_MarkupCompile.cache
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.g.resources
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет_Студентов.Properties.Resources.resources
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.exe
+C:\Users\User\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.pdb
+E:\Учет студентов\Учет Студентов\bin\Debug\Учет Студентов.exe.config
+E:\Учет студентов\Учет Студентов\bin\Debug\Учет Студентов.exe
+E:\Учет студентов\Учет Студентов\bin\Debug\Учет Студентов.pdb
+E:\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.csproj.AssemblyReference.cache
+E:\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.exe.config
+E:\Учет студентов\Учет Студентов\obj\Debug\LoginWindow.baml
+E:\Учет студентов\Учет Студентов\obj\Debug\AdminWindow.baml
+E:\Учет студентов\Учет Студентов\obj\Debug\MainWindow.baml
+E:\Учет студентов\Учет Студентов\obj\Debug\LoginWindow.g.cs
+E:\Учет студентов\Учет Студентов\obj\Debug\AdminWindow.g.cs
+E:\Учет студентов\Учет Студентов\obj\Debug\MainWindow.g.cs
+E:\Учет студентов\Учет Студентов\obj\Debug\App.g.cs
+E:\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов_MarkupCompile.cache
+E:\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.g.resources
+E:\Учет студентов\Учет Студентов\obj\Debug\Учет_Студентов.Properties.Resources.resources
+E:\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.csproj.GenerateResource.cache
+E:\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.csproj.CoreCompileInputs.cache
+E:\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.exe
+E:\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.pdb
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\bin\Debug\Учет Студентов.exe.config
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\bin\Debug\Учет Студентов.exe
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\bin\Debug\Учет Студентов.pdb
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.csproj.AssemblyReference.cache
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.exe.config
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\LoginWindow.baml
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\AdminWindow.baml
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\MainWindow.baml
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\LoginWindow.g.cs
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\AdminWindow.g.cs
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\MainWindow.g.cs
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\App.g.cs
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов_MarkupCompile.cache
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.g.resources
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет_Студентов.Properties.Resources.resources
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.csproj.GenerateResource.cache
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.csproj.CoreCompileInputs.cache
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.exe
+C:\Users\userAndrey\Desktop\Учет студентов\Учет Студентов\obj\Debug\Учет Студентов.pdb
